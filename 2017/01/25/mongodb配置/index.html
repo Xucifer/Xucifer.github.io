@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>mongodb 配置 | lyyourc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/app.css">
+  <!-- <link rel='stylesheet' href='http://fonts.useso.com/css?family=Source+Code+Pro'> -->
+  
+</head>
+
+<body>
+  <nav class="app-nav">
+  
+    
+      <a href="/.">home</a>
+    
+  
+    
+      <a href="/archives">archive</a>
+    
+  
+    
+      <a href="/atom.xml">rss</a>
+    
+  
+</nav>
+
+  <main class="post">
+  <article>
+  <h1 class="article-title">
+    <a href="/2017/01/25/mongodb配置/">mongodb 配置</a>
+  </h1>
+
+  <section class="article-meta">
+    <p class="article-date">January 25 2017</p>
+  </section>
+
+  <section class="article-entry">
+    <h2 id="安装-Mongodb"><a href="#安装-Mongodb" class="headerlink" title="安装 Mongodb"></a>安装 Mongodb</h2><h3 id="1-参考"><a href="#1-参考" class="headerlink" title="1. 参考:"></a>1. 参考:</h3><ul>
+<li><a href="https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/" target="_blank" rel="external">官方文档参考:</a></li>
+</ul>
+<ol>
+<li>如果用mongodb的GUI工具, 只支持 mongodb2.6</li>
+<li>如果用pycharm的插件,使用mongo,就可以装3.0</li>
+</ol>
+<h3 id="2-关于启动方式说明"><a href="#2-关于启动方式说明" class="headerlink" title="2. 关于启动方式说明:"></a>2. 关于启动方式说明:</h3><ul>
+<li><p>设置开启启动:</p>
+<ul>
+<li>ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents</li>
+<li>launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist</li>
+</ul>
+</li>
+<li><p>普通后台启动:</p>
+<ul>
+<li>mongod –config /usr/local/etc/mongod.conf</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-homebrew方式安装-默认的-数据库-存储目录"><a href="#3-homebrew方式安装-默认的-数据库-存储目录" class="headerlink" title="3. homebrew方式安装,默认的 数据库 存储目录:"></a>3. homebrew方式安装,默认的 数据库 存储目录:</h3><ul>
+<li>dbPath: /usr/local/var/mongodb</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">cat mongod.conf</div><div class="line"></div><div class="line"></div><div class="line">systemLog:</div><div class="line">  destination: file</div><div class="line">  path: /usr/local/var/log/mongodb/mongo.log</div><div class="line">  logAppend: true</div><div class="line">storage:</div><div class="line">  dbPath: /usr/local/var/mongodb</div><div class="line">net:</div><div class="line">  bindIp: 127.0.0.1</div></pre></td></tr></table></figure>
+<h3 id="4-安装日志"><a href="#4-安装日志" class="headerlink" title="4. 安装日志:"></a>4. 安装日志:</h3><p>```<br>➜  ~  brew install mongodb</p>
+<p>==&gt; Downloading <a href="https://homebrew.bintray.com/bottles/mongodb-3.0.7.el_capitan.bottle.tar.gz" target="_blank" rel="external">https://homebrew.bintray.com/bottles/mongodb-3.0.7.el_capitan.bottle.tar.gz</a></p>
+<p>######################################################################## 100.0%<br>==&gt; Pouring mongodb-3.0.7.el_capitan.bottle.tar.gz<br>==&gt; Caveats</p>
+<p>To have launchd start mongodb at login:<br>  ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents<br>Then to load mongodb now:<br>  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist</p>
+<p>Or, if you don’t want/need launchctl, you can just run:<br>  mongod –config /usr/local/etc/mongod.conf<br>==&gt; Summary<br>🍺  /usr/local/Cellar/mongodb/3.0.7: 17 files, 158M<br>➜  ~</p>
+<p>```brew search mongodb</p>
+<h1 id="安装3-0版本"><a href="#安装3-0版本" class="headerlink" title="安装3.0版本"></a>安装3.0版本</h1><p>brew install mongodb</p>
+<h1 id="安装2-6版本"><a href="#安装2-6版本" class="headerlink" title="安装2.6版本"></a>安装2.6版本</h1><h1 id="brew-install-mongodb26"><a href="#brew-install-mongodb26" class="headerlink" title="brew install mongodb26"></a>brew install mongodb26</h1><h1 id="安装日志"><a href="#安装日志" class="headerlink" title="安装日志:"></a>安装日志:</h1><p>-&gt; % brew install mongodb<br>==&gt; Downloading <a href="https://homebrew.bintray.com/bottles/mongodb-3.2.8.el_capitan.bottle.tar.gz" target="_blank" rel="external">https://homebrew.bintray.com/bottles/mongodb-3.2.8.el_capitan.bottle.tar.gz</a></p>
+<p>######################################################################## 100.0%<br>==&gt; Pouring mongodb-3.2.8.el_capitan.bottle.tar.gz<br>==&gt; Caveats</p>
+<p>To restart mongodb after an upgrade:<br>  brew services restart mongodb</p>
+<p>Or, if you don’t want/need a background service you can just run:<br>  mongod –config /usr/local/etc/mongod.conf</p>
+<p>==&gt; Summary<br>🍺  /usr/local/Cellar/mongodb/3.2.8: 17 files, 264.1M</p>
+
+  </section>
+</article>
+
+  <div class="sharing grid">
+  <section class="profile grid-item grid">
+    <img class="avatar" src="http://7xrcp8.com1.z0.glb.clouddn.com/avatar.png" alt="avatar" />
+    <div class="grid-item">
+      <p class="title"> lyyourc </p>
+      <p class="subtitle"> You Are The JavaScript In My HTML </p>
+    <div>
+  </section>
+
+  <section class="share-btns">
+    <!-- <p> share it if you like it~ </p> -->
+    <a
+  class="twitter-share-button"
+  data-size="large"
+  data-via="DrakeLeung"
+  href="https://twitter.com/intent/tweet?text= id="安装-Mongodb"><a "
+>
+  Tweet
+</a>
+
+<script>
+  window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  js.async = true;
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+</script>
+
+  </section>
+</div>
+
+
+  
+    
+<section class="article-comment">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+<script>
+  var disqus_shortname = 'drakeleung';
+  
+  var disqus_url = 'http://dirtydoge.com/2017/01/25/mongodb配置/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+  
+</main>
+
+</body>
+</html>

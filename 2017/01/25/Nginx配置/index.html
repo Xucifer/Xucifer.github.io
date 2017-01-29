@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Nginx 配置 | lyyourc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/app.css">
+  <!-- <link rel='stylesheet' href='http://fonts.useso.com/css?family=Source+Code+Pro'> -->
+  
+</head>
+
+<body>
+  <nav class="app-nav">
+  
+    
+      <a href="/.">home</a>
+    
+  
+    
+      <a href="/archives">archive</a>
+    
+  
+    
+      <a href="/atom.xml">rss</a>
+    
+  
+</nav>
+
+  <main class="post">
+  <article>
+  <h1 class="article-title">
+    <a href="/2017/01/25/Nginx配置/">Nginx 配置</a>
+  </h1>
+
+  <section class="article-meta">
+    <p class="article-date">January 25 2017</p>
+  </section>
+
+  <section class="article-entry">
+    <h2 id="Nginx-说明"><a href="#Nginx-说明" class="headerlink" title="Nginx 说明:"></a>Nginx 说明:</h2><h3 id="1-配置说明"><a href="#1-配置说明" class="headerlink" title="1. 配置说明:"></a>1. 配置说明:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">/usr/local/etc/nginx/servers</div><div class="line"></div><div class="line"># 配置:</div><div class="line">cd /usr/local/etc/nginx</div><div class="line"></div><div class="line"></div><div class="line"># 停止：</div><div class="line">sudo nginx -s quit</div></pre></td></tr></table></figure>
+<h3 id="2-homebrew-安装日志"><a href="#2-homebrew-安装日志" class="headerlink" title="2. homebrew 安装日志:"></a>2. homebrew 安装日志:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">==&gt; Pouring nginx-1.8.0.el_capitan.bottle.1.tar.gz</div><div class="line">==&gt; Caveats</div><div class="line">Docroot is: /usr/local/var/www</div><div class="line"></div><div class="line">The default port has been set in /usr/local/etc/nginx/nginx.conf to 8080 so that</div><div class="line">nginx can run without sudo.</div><div class="line"></div><div class="line">nginx will load all files in /usr/local/etc/nginx/servers/.</div><div class="line"></div><div class="line">To have launchd start nginx at login:</div><div class="line">  ln -sfv /usr/local/opt/nginx/*.plist ~/Library/LaunchAgents</div><div class="line">Then to load nginx now:</div><div class="line">  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist</div><div class="line">Or, if you don&apos;t want/need launchctl, you can just run:</div><div class="line">  nginx</div><div class="line">==&gt; Summary</div></pre></td></tr></table></figure>
+<h1 id="sudo-brew-update"><a href="#sudo-brew-update" class="headerlink" title="sudo brew update"></a><code>sudo brew update</code></h1><h1 id="brew-install-nginx"><a href="#brew-install-nginx" class="headerlink" title="brew install nginx"></a><code>brew install nginx</code></h1><h1 id="nginx-v"><a href="#nginx-v" class="headerlink" title="nginx -v"></a><code>nginx -v</code></h1><h1 id="nginx-version-nginx-1-8-0"><a href="#nginx-version-nginx-1-8-0" class="headerlink" title="nginx version: nginx/1.8.0"></a><code>nginx version: nginx/1.8.0</code></h1><h1 id="配置"><a href="#配置" class="headerlink" title="配置:"></a>配置:</h1><h1 id="cd-usr-local-etc-nginx"><a href="#cd-usr-local-etc-nginx" class="headerlink" title="cd /usr/local/etc/nginx"></a><code>cd /usr/local/etc/nginx</code></h1><h1 id="停止："><a href="#停止：" class="headerlink" title="停止："></a>停止：</h1><h1 id="sudo-nginx-s-quit"><a href="#sudo-nginx-s-quit" class="headerlink" title="sudo nginx -s quit"></a><code>sudo nginx -s quit</code></h1>
+  </section>
+</article>
+
+  <div class="sharing grid">
+  <section class="profile grid-item grid">
+    <img class="avatar" src="http://7xrcp8.com1.z0.glb.clouddn.com/avatar.png" alt="avatar" />
+    <div class="grid-item">
+      <p class="title"> lyyourc </p>
+      <p class="subtitle"> You Are The JavaScript In My HTML </p>
+    <div>
+  </section>
+
+  <section class="share-btns">
+    <!-- <p> share it if you like it~ </p> -->
+    <a
+  class="twitter-share-button"
+  data-size="large"
+  data-via="DrakeLeung"
+  href="https://twitter.com/intent/tweet?text= id="Nginx-说明"><a hr"
+>
+  Tweet
+</a>
+
+<script>
+  window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  js.async = true;
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+</script>
+
+  </section>
+</div>
+
+
+  
+    
+<section class="article-comment">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+<script>
+  var disqus_shortname = 'drakeleung';
+  
+  var disqus_url = 'http://dirtydoge.com/2017/01/25/Nginx配置/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+  
+</main>
+
+</body>
+</html>

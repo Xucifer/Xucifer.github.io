@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>mysql 配置 | lyyourc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/app.css">
+  <!-- <link rel='stylesheet' href='http://fonts.useso.com/css?family=Source+Code+Pro'> -->
+  
+</head>
+
+<body>
+  <nav class="app-nav">
+  
+    
+      <a href="/.">home</a>
+    
+  
+    
+      <a href="/archives">archive</a>
+    
+  
+    
+      <a href="/atom.xml">rss</a>
+    
+  
+</nav>
+
+  <main class="post">
+  <article>
+  <h1 class="article-title">
+    <a href="/2017/01/25/mysql配置/">mysql 配置</a>
+  </h1>
+
+  <section class="article-meta">
+    <p class="article-date">January 25 2017</p>
+  </section>
+
+  <section class="article-entry">
+    <h1 id="MySQL-说明"><a href="#MySQL-说明" class="headerlink" title="MySQL 说明:"></a>MySQL 说明:</h1><h2 id="MySQL-配置"><a href="#MySQL-配置" class="headerlink" title="MySQL 配置:"></a>MySQL 配置:</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">#</div><div class="line"># 配置路径:</div><div class="line">#   - MySQL 数据库存放路径</div><div class="line">#   - pid 文件, log 文件</div><div class="line">#</div><div class="line">/usr/local/var/mysql</div></pre></td></tr></table></figure>
+<h1 id="安装命令"><a href="#安装命令" class="headerlink" title="安装命令"></a>安装命令</h1><p><code>brew install mysql</code></p>
+<p><code>brew info mysql</code></p>
+<h1 id="start"><a href="#start" class="headerlink" title="start:"></a>start:</h1><p><code>mysql.server start</code></p>
+<h1 id="restart"><a href="#restart" class="headerlink" title="restart:"></a>restart:</h1><p><code>mysql.server restart</code></p>
+<h1 id="stop"><a href="#stop" class="headerlink" title="stop:"></a>stop:</h1><p><code>mysql.server stop</code></p>
+<h1 id="登录-输入密码方式"><a href="#登录-输入密码方式" class="headerlink" title="登录, 输入密码方式:"></a>登录, 输入密码方式:</h1><p><code>mysql -uroot -p</code></p>
+<h1 id="error-fix"><a href="#error-fix" class="headerlink" title="error-fix:"></a>error-fix:</h1><h1 id="error-Table-‘performance-schema-session-variables’-doesn’t-exist"><a href="#error-Table-‘performance-schema-session-variables’-doesn’t-exist" class="headerlink" title="error: Table ‘performance_schema.session_variables’ doesn’t exist"></a>error: Table ‘performance_schema.session_variables’ doesn’t exist</h1><figure class="highlight plain"><figcaption><span>-u root -p --force</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql.server restart</div></pre></td></tr></table></figure>
+<h1 id="MySQL-启动-登录-退出"><a href="#MySQL-启动-登录-退出" class="headerlink" title="MySQL 启动, 登录, 退出:"></a>MySQL 启动, 登录, 退出:</h1><h2 id="后台进程-启动-mysqld"><a href="#后台进程-启动-mysqld" class="headerlink" title="后台进程,启动 mysqld"></a>后台进程,启动 mysqld</h2><p><code>mysqld</code></p>
+<h2 id="前台进程-启动-mysqld"><a href="#前台进程-启动-mysqld" class="headerlink" title="前台进程,启动 mysqld"></a>前台进程,启动 mysqld</h2><p><code>mysql.server start</code></p>
+<h2 id="前台-重启"><a href="#前台-重启" class="headerlink" title="前台,重启:"></a>前台,重启:</h2><p><code>mysql.server restart</code></p>
+<h2 id="前台-退出"><a href="#前台-退出" class="headerlink" title="前台,退出:"></a>前台,退出:</h2><p><code>mysql.server stop</code></p>
+<h2 id="连接数据库"><a href="#连接数据库" class="headerlink" title="连接数据库:"></a>连接数据库:</h2><p><code>mysql -uroot -p</code></p>
+<h2 id="常用-SQL-操作"><a href="#常用-SQL-操作" class="headerlink" title="常用 SQL 操作:"></a>常用 SQL 操作:</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 显示所有数据库:</span></div><div class="line">mysql&gt; show databases;</div><div class="line"></div><div class="line"><span class="comment"># 选择使用 XX 数据库:</span></div><div class="line">mysql&gt; use xxx-database;</div><div class="line"></div><div class="line"><span class="comment"># 显示数据库里的表:</span></div><div class="line">mysql&gt; show tables;</div><div class="line"></div><div class="line"><span class="comment"># 创建数据库</span></div><div class="line">mysql&gt; create database xxx-database;</div><div class="line"></div><div class="line"><span class="comment"># 执行 sql 文件</span></div><div class="line">mysql&gt; <span class="built_in">source</span> /sql/file/path/xxx.sql;</div><div class="line"></div><div class="line"><span class="comment"># 退出</span></div><div class="line">mysql&gt; quit;</div></pre></td></tr></table></figure>
+<h1 id="最后附上初始密码的选单"><a href="#最后附上初始密码的选单" class="headerlink" title="最后附上初始密码的选单"></a>最后附上初始密码的选单</h1><p>######################################################################</p>
+<h1 id="初始化说明"><a href="#初始化说明" class="headerlink" title="初始化说明:"></a>初始化说明:</h1><h1 id="执行-brew-install-mysql-下一步-就是根据提示-执行本脚本命令"><a href="#执行-brew-install-mysql-下一步-就是根据提示-执行本脚本命令" class="headerlink" title="- 执行 brew install mysql, 下一步, 就是根据提示, 执行本脚本命令."></a>- 执行 brew install mysql, 下一步, 就是根据提示, 执行本脚本命令.</h1><h1 id="根据提示-一步步往下走"><a href="#根据提示-一步步往下走" class="headerlink" title="- 根据提示, 一步步往下走."></a>- 根据提示, 一步步往下走.</h1><h1 id="结束之后-登录-MySQL-验证-mysql-uroot-p"><a href="#结束之后-登录-MySQL-验证-mysql-uroot-p" class="headerlink" title="- 结束之后, 登录 MySQL 验证: mysql -uroot -p"></a>- 结束之后, 登录 MySQL 验证: mysql -uroot -p</h1><p>#</p>
+<p>######################################################################</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div></pre></td><td class="code"><pre><div class="line">-&gt; % mysql_secure_installation</div><div class="line"></div><div class="line">mysql_secure_installation: [ERROR] unknown variable &apos;default-character-set=utf8&apos;</div><div class="line"></div><div class="line">Securing the MySQL server deployment.</div><div class="line"></div><div class="line">Enter password for user root:    &lt; 输入 root &gt;</div><div class="line"></div><div class="line">VALIDATE PASSWORD PLUGIN can be used to test passwords</div><div class="line">and improve security. It checks the strength of password</div><div class="line">and allows the users to set only those passwords which are</div><div class="line">secure enough. Would you like to setup VALIDATE PASSWORD plugin?</div><div class="line"></div><div class="line">Press y|Y for Yes, any other key for No: y</div><div class="line">The password validation plugin is not available. Proceeding with the further steps without the plugin.</div><div class="line">Using existing password for root.</div><div class="line">Change the password for root ? ((Press y|Y for Yes, any other key for No) : y   &lt; 输入 &gt;</div><div class="line"></div><div class="line">New password:             &lt;输入: 123456&gt;</div><div class="line"></div><div class="line">Re-enter new password:    &lt;输入: 123456&gt;</div><div class="line">By default, a MySQL installation has an anonymous user,</div><div class="line">allowing anyone to log into MySQL without having to have</div><div class="line">a user account created for them. This is intended only for</div><div class="line">testing, and to make the installation go a bit smoother.</div><div class="line">You should remove them before moving into a production</div><div class="line">environment.</div><div class="line"></div><div class="line">Remove anonymous users? (Press y|Y for Yes, any other key for No) : y   &lt; 输入 &gt;</div><div class="line">Success.</div><div class="line"></div><div class="line"></div><div class="line">Normally, root should only be allowed to connect from</div><div class="line">&apos;localhost&apos;. This ensures that someone cannot guess at</div><div class="line">the root password from the network.</div><div class="line"></div><div class="line">Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y   &lt; 输入 &gt;</div><div class="line">Success.</div><div class="line"></div><div class="line">By default, MySQL comes with a database named &apos;test&apos; that</div><div class="line">anyone can access. This is also intended only for testing,</div><div class="line">and should be removed before moving into a production</div><div class="line">environment.</div><div class="line"></div><div class="line"></div><div class="line">Remove test database and access to it? (Press y|Y for Yes, any other key for No) : n   &lt; 输入 &gt;</div><div class="line"></div><div class="line"> ... skipping.</div><div class="line">Reloading the privilege tables will ensure that all changes</div><div class="line">made so far will take effect immediately.</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y   &lt; 输入 &gt;</div><div class="line">Success.</div><div class="line"></div><div class="line">All done!</div></pre></td></tr></table></figure>
+
+  </section>
+</article>
+
+  <div class="sharing grid">
+  <section class="profile grid-item grid">
+    <img class="avatar" src="http://7xrcp8.com1.z0.glb.clouddn.com/avatar.png" alt="avatar" />
+    <div class="grid-item">
+      <p class="title"> lyyourc </p>
+      <p class="subtitle"> You Are The JavaScript In My HTML </p>
+    <div>
+  </section>
+
+  <section class="share-btns">
+    <!-- <p> share it if you like it~ </p> -->
+    <a
+  class="twitter-share-button"
+  data-size="large"
+  data-via="DrakeLeung"
+  href="https://twitter.com/intent/tweet?text= id="MySQL-说明"><a hr"
+>
+  Tweet
+</a>
+
+<script>
+  window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  js.async = true;
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+</script>
+
+  </section>
+</div>
+
+
+  
+    
+<section class="article-comment">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+<script>
+  var disqus_shortname = 'drakeleung';
+  
+  var disqus_url = 'http://dirtydoge.com/2017/01/25/mysql配置/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+  
+</main>
+
+</body>
+</html>

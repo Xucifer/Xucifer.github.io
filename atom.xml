@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dirtydoge</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://dirtydoge.com/"/>
+  <updated>2017-01-25T17:37:27.000Z</updated>
+  <id>http://dirtydoge.com/</id>
+  
+  <author>
+    <name>Abovesky</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://dirtydoge.com/2017/01/26/helloworld/"/>
+    <id>http://dirtydoge.com/2017/01/26/helloworld/</id>
+    <published>2017-01-25T17:37:27.000Z</published>
+    <updated>2017-01-25T17:37:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>大致安装列表</title>
+    <link href="http://dirtydoge.com/2017/01/25/%E5%A4%A7%E8%87%B4%E5%AE%89%E8%A3%85%E5%88%97%E8%A1%A8/"/>
+    <id>http://dirtydoge.com/2017/01/25/大致安装列表/</id>
+    <published>2017-01-24T19:58:47.000Z</published>
+    <updated>2017-01-24T19:59:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP:"></a>HTTP:</h3><p>requests</p>
+<p>simplejson==3.6.5</p>
+<h3 id="MQ"><a href="#MQ" class="headerlink" title="MQ:"></a>MQ:</h3><p>celery</p>
+<p>pika</p>
+<h3 id="DB-ORM"><a href="#DB-ORM" class="headerlink" title="DB, ORM:"></a>DB, ORM:</h3><p>pymongo</p>
+<p>mongoengine</p>
+<p>redis</p>
+<p>MySQL-python==1.2.5</p>
+<p>SQLAlchemy==0.9.8</p>
+<h3 id="Docker"><a href="#Docker" class="headerlink" title="Docker:"></a>Docker:</h3><p>docker-py==1.1.0</p>
+<h2 id="IMAGE"><a href="#IMAGE" class="headerlink" title="IMAGE:"></a>IMAGE:</h2><h3 id="python-x64bit"><a href="#python-x64bit" class="headerlink" title="python x64bit"></a>python x64bit</h3><p>Pillow</p>
+<h3 id="python-x32bit"><a href="#python-x32bit" class="headerlink" title="python x32bit"></a>python x32bit</h3><p>#pil</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;HTTP&quot;&gt;&lt;a href=&quot;#HTTP&quot; class=&quot;headerlink&quot; title=&quot;HTTP:&quot;&gt;&lt;/a&gt;HTTP:&lt;/h3&gt;&lt;p&gt;requests&lt;/p&gt;
+&lt;p&gt;simplejson==3.6.5&lt;/p&gt;
+&lt;h3 id=&quot;MQ&quot;&gt;&lt;a href=&quot;#
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis 配置</title>
+    <link href="http://dirtydoge.com/2017/01/25/redis%E9%85%8D%E7%BD%AE/"/>
+    <id>http://dirtydoge.com/2017/01/25/redis配置/</id>
+    <published>2017-01-24T19:58:05.000Z</published>
+    <updated>2017-01-24T19:58:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#!/usr/bin/env bash</p>
+<p><code>sudo xcodebuild -license</code></p>
+<p><code>sudo brew update</code><br><code>brew install redis</code></p>
+<h1 id="安装日志"><a href="#安装日志" class="headerlink" title="安装日志:"></a>安装日志:</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">-&gt; % brew install redis</div><div class="line">==&gt; Downloading https://homebrew.bintray.com/bottles/redis-3.2.1.el_capitan.bottle.tar.gz</div><div class="line">######################################################################## 100.0%</div><div class="line">==&gt; Pouring redis-3.2.1.el_capitan.bottle.tar.gz</div><div class="line">==&gt; Caveats</div></pre></td></tr></table></figure>
+<p>To have launchd start redis now and restart at login:</p>
+<p>  <code>brew services start redis</code></p>
+<p>Or, if you don’t want/need a background service you can just run:</p>
+<p>  <code>redis-server /usr/local/etc/redis.conf</code></p>
+<p>==&gt; Summary<br>🍺  /usr/local/Cellar/redis/3.2.1: 10 files, 1.7M</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#!/usr/bin/env bash&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo xcodebuild -license&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo brew update&lt;/code&gt;&lt;br&gt;&lt;code&gt;brew install redis&lt;/code&gt;&lt;
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ide cdk</title>
+    <link href="http://dirtydoge.com/2017/01/25/idecdk/"/>
+    <id>http://dirtydoge.com/2017/01/25/idecdk/</id>
+    <published>2017-01-24T19:55:49.000Z</published>
+    <updated>2017-01-24T19:57:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="pycharm"><a href="#pycharm" class="headerlink" title="pycharm"></a>pycharm</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">43B4A73YYJ-eyJsaWNlbnNlSWQiOiI0M0I0QTczWVlKIiwibGljZW5zZWVOYW1lIjoibGFuIHl1IiwiYXNzaWduZWVOYW1lIjoiIiwiYXNzaWduZWVFbWFpbCI6IiIsImxpY2Vuc2VSZXN0cmljdGlvbiI6IkZvciBlZHVjYXRpb25hbCB1c2Ugb25seSIsImNoZWNrQ29uY3VycmVudFVzZSI6ZmFsc2UsInByb2R1Y3RzIjpbeyJjb2RlIjoiSUkiLCJwYWlkVXBUbyI6IjIwMTctMDItMjUifSx7ImNvZGUiOiJBQyIsInBhaWRVcFRvIjoiMjAxNy0wMi0yNSJ9LHsiY29kZSI6IkRQTiIsInBhaWRVcFRvIjoiMjAxNy0wMi0yNSJ9LHsiY29kZSI6IlBTIiwicGFpZFVwVG8iOiIyMDE3LTAyLTI1In0seyJjb2RlIjoiRE0iLCJwYWlkVXBUbyI6IjIwMTctMDItMjUifSx7ImNvZGUiOiJDTCIsInBhaWRVcFRvIjoiMjAxNy0wMi0yNSJ9LHsiY29kZSI6IlJTMCIsInBhaWRVcFRvIjoiMjAxNy0wMi0yNSJ9LHsiY29kZSI6IlJDIiwicGFpZFVwVG8iOiIyMDE3LTAyLTI1In0seyJjb2RlIjoiUEMiLCJwYWlkVXBUbyI6IjIwMTctMDItMjUifSx7ImNvZGUiOiJSTSIsInBhaWRVcFRvIjoiMjAxNy0wMi0yNSJ9LHsiY29kZSI6IldTIiwicGFpZFVwVG8iOiIyMDE3LTAyLTI1In0seyJjb2RlIjoiREIiLCJwYWlkVXBUbyI6IjIwMTctMDItMjUifSx7ImNvZGUiOiJEQyIsInBhaWRVcFRvIjoiMjAxNy0wMi0yNSJ9XSwiaGFzaCI6IjMzOTgyOTkvMCIsImdyYWNlUGVyaW9kRGF5cyI6MCwiYXV0b1Byb2xvbmdhdGVkIjpmYWxzZSwiaXNBdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlfQ==-keaxIkRgXPKE4BR/ZTs7s7UkP92LBxRe57HvWamu1EHVXTcV1B4f/KNQIrpOpN6dgpjig5eMVMPmo7yMPl+bmwQ8pTZaCGFuLqCHD1ngo6ywHKIQy0nR249sAUVaCl2wGJwaO4JeOh1opUx8chzSBVRZBMz0/MGyygi7duYAff9JQqfH3p/BhDTNM8eKl6z5tnneZ8ZG5bG1XvqFTqWk4FhGsEWdK7B+He44hPjBxKQl2gmZAodb6g9YxfTHhVRKQY5hQ7KPXNvh3ikerHkoaL5apgsVBZJOTDE2KdYTnGLmqxghFx6L0ofqKI6hMr48ergMyflDk6wLNGWJvYHLWw==-MIIEPjCCAiagAwIBAgIBBTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE1MTEwMjA4MjE0OFoXDTE4MTEwMTA4MjE0OFowETEPMA0GA1UEAwwGcHJvZDN5MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxcQkq+zdxlR2mmRYBPzGbUNdMN6OaXiXzxIWtMEkrJMO/5oUfQJbLLuMSMK0QHFmaI37WShyxZcfRCidwXjot4zmNBKnlyHodDij/78TmVqFl8nOeD5+07B8VEaIu7c3E1N+e1doC6wht4I4+IEmtsPAdoaj5WCQVQbrI8KeT8M9VcBIWX7fD0fhexfg3ZRt0xqwMcXGNp3DdJHiO0rCdU+Itv7EmtnSVq9jBG1usMSFvMowR25mju2JcPFp1+I4ZI+FqgR8gyG8oiNDyNEoAbsR3lOpI7grUYSvkB/xVy/VoklPCK2h0f0GJxFjnye8NT1PAywoyl7RmiAVRE/EKwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQC9WZuYgQedSuOc5TOUSrRigMw4/+wuC5EtZBfvdl4HT/8vzMW/oUlIP4YCvA0XKyBaCJ2iX+ZCDKoPfiYXiaSiH+HxAPV6J79vvouxKrWg2XV6ShFtPLP+0gPdGq3x9R3+kJbmAm8w+FOdlWqAfJrLvpzMGNeDU14YGXiZ9bVzmIQbwrBA+c/F4tlK/DV07dsNExihqFoibnqDiVNTGombaU2dDup2gwKdL81ua8EIcGNExHe82kjF4zwfadHk3bQVvbfdAwxcDy4xBjs3L4raPLU3yenSzr/OEur1+jfOxnQSmEcMXKXgrAQ9U55gwjcOFKrgOxEdek/Sk1VfOjvS+nuM4eyEruFMfaZHzoQiuw4IqgGc45ohFH0UUyjYcuFxxDSU9lMCv8qdHKm+wnPRb0l9l5vXsCBDuhAGYD6ss+Ga+aDY6f/qXZuUCEUOH3QUNbbCUlviSz6+GiRnt1kA9N2Qachl+2yBfaqUqr8h7Z2gsx5LcIf5kYNsqJ0GavXTVyWh7PYiKX4bs354ZQLUwwa/cG++2+wNWP+HtBhVxMRNTdVhSm38AknZlD+PTAsWGu9GyLmhti2EnVwGybSD2Dxmhxk3IPCkhKAK+pl0eWYGZWG3tJ9mZ7SowcXLWDFAk0lRJnKGFMTggrWjV8GYpw5bq23VmIqqDLgkNzuoog==</div></pre></td></tr></table></figure>
+<p>Sublime cdk</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">—– BEGIN LICENSE —–</div><div class="line">Michael Barnes</div><div class="line">Single User License</div><div class="line">EA7E-821385</div><div class="line">8A353C41 872A0D5C DF9B2950 AFF6F667</div><div class="line">C458EA6D 8EA3C286 98D1D650 131A97AB</div><div class="line">AA919AEC EF20E143 B361B1E7 4C8B7F04</div><div class="line">B085E65E 2F5F5360 8489D422 FB8FC1AA</div><div class="line">93F6323C FD7F7544 3F39C318 D95E6480</div><div class="line">FCCC7561 8A4A1741 68FA4223 ADCEDE07</div><div class="line">200C25BE DBBC4855 C4CFB774 C5EC138C</div><div class="line">0FEC1CEF D9DCECEC D3A5DAD1 01316C36</div><div class="line">—— END LICENSE ——</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;pycharm&quot;&gt;&lt;a href=&quot;#pycharm&quot; class=&quot;headerlink&quot; title=&quot;pycharm&quot;&gt;&lt;/a&gt;pycharm&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记 资源" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0-%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>php 配置</title>
+    <link href="http://dirtydoge.com/2017/01/25/pip%E9%85%8D%E7%BD%AE/"/>
+    <id>http://dirtydoge.com/2017/01/25/pip配置/</id>
+    <published>2017-01-24T19:54:59.000Z</published>
+    <updated>2017-01-24T19:55:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="常用-Python-开发包"><a href="#常用-Python-开发包" class="headerlink" title="常用 Python 开发包:"></a>常用 Python 开发包:</h1><h2 id="常用基础功能包"><a href="#常用基础功能包" class="headerlink" title="常用基础功能包:"></a>常用基础功能包:</h2><ul>
+<li>requests 等</li>
+</ul>
+<h2 id="常用-web-框架相关"><a href="#常用-web-框架相关" class="headerlink" title="常用 web 框架相关:"></a>常用 web 框架相关:</h2><ul>
+<li>flask<br><code>pip install -r ./requirements/flask-requirements.txt</code></li>
+<li>tornado<br><code>pip install -r ./requirements/tornado-requirements.txt</code></li>
+<li>django</li>
+</ul>
+<p>#################################################<br>#</p>
+<h1 id="1-用户根目录-创建-pip-目录"><a href="#1-用户根目录-创建-pip-目录" class="headerlink" title="1. 用户根目录,创建 .pip 目录"></a>1. 用户根目录,创建 .pip 目录</h1><h1 id="2-将-pip-阿里云镜像源配置文件-拷贝到-pip-目录"><a href="#2-将-pip-阿里云镜像源配置文件-拷贝到-pip-目录" class="headerlink" title="2. 将 pip 阿里云镜像源配置文件, 拷贝到 .pip 目录."></a>2. 将 pip 阿里云镜像源配置文件, 拷贝到 .pip 目录.</h1><h1 id="3-安装测试"><a href="#3-安装测试" class="headerlink" title="3. 安装测试:"></a>3. 安装测试:</h1><h1 id="pip3-install-flask"><a href="#pip3-install-flask" class="headerlink" title="- pip3 install flask"></a>- pip3 install flask</h1><h1 id="提示信息-从-阿里云-的镜像站点下载"><a href="#提示信息-从-阿里云-的镜像站点下载" class="headerlink" title="- 提示信息: 从 阿里云 的镜像站点下载."></a>- 提示信息: 从 阿里云 的镜像站点下载.</h1><p>#################################################</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd ~</div><div class="line">mkdir .pip</div><div class="line">nano ./pip.conf ~/.pip</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[global]</div><div class="line">index-url=http://mirrors.aliyun.com/pypi/simple/</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[install]</div><div class="line">trusted-host=mirrors.aliyun.com</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;常用-Python-开发包&quot;&gt;&lt;a href=&quot;#常用-Python-开发包&quot; class=&quot;headerlink&quot; title=&quot;常用 Python 开发包:&quot;&gt;&lt;/a&gt;常用 Python 开发包:&lt;/h1&gt;&lt;h2 id=&quot;常用基础功能包&quot;&gt;&lt;a href=&quot;#
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nodejs  配置</title>
+    <link href="http://dirtydoge.com/2017/01/25/nodejs%E9%85%8D%E7%BD%AE/"/>
+    <id>http://dirtydoge.com/2017/01/25/nodejs配置/</id>
+    <published>2017-01-24T19:54:35.000Z</published>
+    <updated>2017-01-24T19:54:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="常规安装"><a href="#常规安装" class="headerlink" title="常规安装"></a>常规安装</h1><p><code>Build with full-icu (all locales) instead of small-icu (English only)</code><br><code>brew install node --with-full-icu</code></p>
+<p><code>brew install node</code></p>
+<p><code>brew link node</code></p>
+<h1 id="v7-1-0"><a href="#v7-1-0" class="headerlink" title="v7.1.0"></a>v7.1.0</h1><p><code>node -v</code></p>
+<h1 id="国内源安装"><a href="#国内源安装" class="headerlink" title="国内源安装"></a>国内源安装</h1><h2 id="使用-taobao-的-cnpm-替代-npm-工具"><a href="#使用-taobao-的-cnpm-替代-npm-工具" class="headerlink" title="使用 taobao 的 cnpm 替代 npm 工具"></a>使用 taobao 的 cnpm 替代 npm 工具</h2><h2 id="淘宝源-https-npm-taobao-org"><a href="#淘宝源-https-npm-taobao-org" class="headerlink" title="淘宝源: https://npm.taobao.org/"></a>淘宝源: <a href="https://npm.taobao.org/" target="_blank" rel="external">https://npm.taobao.org/</a></h2><p><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code></p>
+<h1 id="version-4-4-0"><a href="#version-4-4-0" class="headerlink" title="version: 4.4.0"></a>version: 4.4.0</h1><p><code>cnpm -v</code></p>
+<h2 id="国内源安装小计"><a href="#国内源安装小计" class="headerlink" title="国内源安装小计"></a>国内源安装小计</h2><h1 id="global-install"><a href="#global-install" class="headerlink" title="global install:"></a>global install:</h1><p><code>cnpm install -g webpack</code><br><code>cnpm install -g</code> </p>
+<h2 id="lib"><a href="#lib" class="headerlink" title="lib:"></a>lib:</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">cnpm install -g vue-cli</div><div class="line">cnpm install -g weex-toolkit</div><div class="line">cnpm install -g react-native-cli</div><div class="line">cnpm install -g marked</div></pre></td></tr></table></figure>
+<h2 id="check-es"><a href="#check-es" class="headerlink" title="check es:"></a>check es:</h2><p><code>cnpm install -g eslint</code></p>
+<h1 id="tool"><a href="#tool" class="headerlink" title="tool:"></a>tool:</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cnpm install -g grunt-cli</div><div class="line">cnpm install -g webpack</div><div class="line">cnpm install -g webpack-dev-server</div></pre></td></tr></table></figure>
+<h2 id="check-version"><a href="#check-version" class="headerlink" title="check version:"></a>check version:</h2><p><code>grunt --version</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;常规安装&quot;&gt;&lt;a href=&quot;#常规安装&quot; class=&quot;headerlink&quot; title=&quot;常规安装&quot;&gt;&lt;/a&gt;常规安装&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Build with full-icu (all locales) instead of small-icu (
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx 配置</title>
+    <link href="http://dirtydoge.com/2017/01/25/Nginx%E9%85%8D%E7%BD%AE/"/>
+    <id>http://dirtydoge.com/2017/01/25/Nginx配置/</id>
+    <published>2017-01-24T19:53:59.000Z</published>
+    <updated>2017-01-24T19:54:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Nginx-说明"><a href="#Nginx-说明" class="headerlink" title="Nginx 说明:"></a>Nginx 说明:</h2><h3 id="1-配置说明"><a href="#1-配置说明" class="headerlink" title="1. 配置说明:"></a>1. 配置说明:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">/usr/local/etc/nginx/servers</div><div class="line"></div><div class="line"># 配置:</div><div class="line">cd /usr/local/etc/nginx</div><div class="line"></div><div class="line"></div><div class="line"># 停止：</div><div class="line">sudo nginx -s quit</div></pre></td></tr></table></figure>
+<h3 id="2-homebrew-安装日志"><a href="#2-homebrew-安装日志" class="headerlink" title="2. homebrew 安装日志:"></a>2. homebrew 安装日志:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">==&gt; Pouring nginx-1.8.0.el_capitan.bottle.1.tar.gz</div><div class="line">==&gt; Caveats</div><div class="line">Docroot is: /usr/local/var/www</div><div class="line"></div><div class="line">The default port has been set in /usr/local/etc/nginx/nginx.conf to 8080 so that</div><div class="line">nginx can run without sudo.</div><div class="line"></div><div class="line">nginx will load all files in /usr/local/etc/nginx/servers/.</div><div class="line"></div><div class="line">To have launchd start nginx at login:</div><div class="line">  ln -sfv /usr/local/opt/nginx/*.plist ~/Library/LaunchAgents</div><div class="line">Then to load nginx now:</div><div class="line">  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist</div><div class="line">Or, if you don&apos;t want/need launchctl, you can just run:</div><div class="line">  nginx</div><div class="line">==&gt; Summary</div></pre></td></tr></table></figure>
+<h1 id="sudo-brew-update"><a href="#sudo-brew-update" class="headerlink" title="sudo brew update"></a><code>sudo brew update</code></h1><h1 id="brew-install-nginx"><a href="#brew-install-nginx" class="headerlink" title="brew install nginx"></a><code>brew install nginx</code></h1><h1 id="nginx-v"><a href="#nginx-v" class="headerlink" title="nginx -v"></a><code>nginx -v</code></h1><h1 id="nginx-version-nginx-1-8-0"><a href="#nginx-version-nginx-1-8-0" class="headerlink" title="nginx version: nginx/1.8.0"></a><code>nginx version: nginx/1.8.0</code></h1><h1 id="配置"><a href="#配置" class="headerlink" title="配置:"></a>配置:</h1><h1 id="cd-usr-local-etc-nginx"><a href="#cd-usr-local-etc-nginx" class="headerlink" title="cd /usr/local/etc/nginx"></a><code>cd /usr/local/etc/nginx</code></h1><h1 id="停止："><a href="#停止：" class="headerlink" title="停止："></a>停止：</h1><h1 id="sudo-nginx-s-quit"><a href="#sudo-nginx-s-quit" class="headerlink" title="sudo nginx -s quit"></a><code>sudo nginx -s quit</code></h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Nginx-说明&quot;&gt;&lt;a href=&quot;#Nginx-说明&quot; class=&quot;headerlink&quot; title=&quot;Nginx 说明:&quot;&gt;&lt;/a&gt;Nginx 说明:&lt;/h2&gt;&lt;h3 id=&quot;1-配置说明&quot;&gt;&lt;a href=&quot;#1-配置说明&quot; class=&quot;header
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql 配置</title>
+    <link href="http://dirtydoge.com/2017/01/25/mysql%E9%85%8D%E7%BD%AE/"/>
+    <id>http://dirtydoge.com/2017/01/25/mysql配置/</id>
+    <published>2017-01-24T19:53:22.000Z</published>
+    <updated>2017-01-24T19:53:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="MySQL-说明"><a href="#MySQL-说明" class="headerlink" title="MySQL 说明:"></a>MySQL 说明:</h1><h2 id="MySQL-配置"><a href="#MySQL-配置" class="headerlink" title="MySQL 配置:"></a>MySQL 配置:</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">#</div><div class="line"># 配置路径:</div><div class="line">#   - MySQL 数据库存放路径</div><div class="line">#   - pid 文件, log 文件</div><div class="line">#</div><div class="line">/usr/local/var/mysql</div></pre></td></tr></table></figure>
+<h1 id="安装命令"><a href="#安装命令" class="headerlink" title="安装命令"></a>安装命令</h1><p><code>brew install mysql</code></p>
+<p><code>brew info mysql</code></p>
+<h1 id="start"><a href="#start" class="headerlink" title="start:"></a>start:</h1><p><code>mysql.server start</code></p>
+<h1 id="restart"><a href="#restart" class="headerlink" title="restart:"></a>restart:</h1><p><code>mysql.server restart</code></p>
+<h1 id="stop"><a href="#stop" class="headerlink" title="stop:"></a>stop:</h1><p><code>mysql.server stop</code></p>
+<h1 id="登录-输入密码方式"><a href="#登录-输入密码方式" class="headerlink" title="登录, 输入密码方式:"></a>登录, 输入密码方式:</h1><p><code>mysql -uroot -p</code></p>
+<h1 id="error-fix"><a href="#error-fix" class="headerlink" title="error-fix:"></a>error-fix:</h1><h1 id="error-Table-‘performance-schema-session-variables’-doesn’t-exist"><a href="#error-Table-‘performance-schema-session-variables’-doesn’t-exist" class="headerlink" title="error: Table ‘performance_schema.session_variables’ doesn’t exist"></a>error: Table ‘performance_schema.session_variables’ doesn’t exist</h1><figure class="highlight plain"><figcaption><span>-u root -p --force</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql.server restart</div></pre></td></tr></table></figure>
+<h1 id="MySQL-启动-登录-退出"><a href="#MySQL-启动-登录-退出" class="headerlink" title="MySQL 启动, 登录, 退出:"></a>MySQL 启动, 登录, 退出:</h1><h2 id="后台进程-启动-mysqld"><a href="#后台进程-启动-mysqld" class="headerlink" title="后台进程,启动 mysqld"></a>后台进程,启动 mysqld</h2><p><code>mysqld</code></p>
+<h2 id="前台进程-启动-mysqld"><a href="#前台进程-启动-mysqld" class="headerlink" title="前台进程,启动 mysqld"></a>前台进程,启动 mysqld</h2><p><code>mysql.server start</code></p>
+<h2 id="前台-重启"><a href="#前台-重启" class="headerlink" title="前台,重启:"></a>前台,重启:</h2><p><code>mysql.server restart</code></p>
+<h2 id="前台-退出"><a href="#前台-退出" class="headerlink" title="前台,退出:"></a>前台,退出:</h2><p><code>mysql.server stop</code></p>
+<h2 id="连接数据库"><a href="#连接数据库" class="headerlink" title="连接数据库:"></a>连接数据库:</h2><p><code>mysql -uroot -p</code></p>
+<h2 id="常用-SQL-操作"><a href="#常用-SQL-操作" class="headerlink" title="常用 SQL 操作:"></a>常用 SQL 操作:</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 显示所有数据库:</span></div><div class="line">mysql&gt; show databases;</div><div class="line"></div><div class="line"><span class="comment"># 选择使用 XX 数据库:</span></div><div class="line">mysql&gt; use xxx-database;</div><div class="line"></div><div class="line"><span class="comment"># 显示数据库里的表:</span></div><div class="line">mysql&gt; show tables;</div><div class="line"></div><div class="line"><span class="comment"># 创建数据库</span></div><div class="line">mysql&gt; create database xxx-database;</div><div class="line"></div><div class="line"><span class="comment"># 执行 sql 文件</span></div><div class="line">mysql&gt; <span class="built_in">source</span> /sql/file/path/xxx.sql;</div><div class="line"></div><div class="line"><span class="comment"># 退出</span></div><div class="line">mysql&gt; quit;</div></pre></td></tr></table></figure>
+<h1 id="最后附上初始密码的选单"><a href="#最后附上初始密码的选单" class="headerlink" title="最后附上初始密码的选单"></a>最后附上初始密码的选单</h1><p>######################################################################</p>
+<h1 id="初始化说明"><a href="#初始化说明" class="headerlink" title="初始化说明:"></a>初始化说明:</h1><h1 id="执行-brew-install-mysql-下一步-就是根据提示-执行本脚本命令"><a href="#执行-brew-install-mysql-下一步-就是根据提示-执行本脚本命令" class="headerlink" title="- 执行 brew install mysql, 下一步, 就是根据提示, 执行本脚本命令."></a>- 执行 brew install mysql, 下一步, 就是根据提示, 执行本脚本命令.</h1><h1 id="根据提示-一步步往下走"><a href="#根据提示-一步步往下走" class="headerlink" title="- 根据提示, 一步步往下走."></a>- 根据提示, 一步步往下走.</h1><h1 id="结束之后-登录-MySQL-验证-mysql-uroot-p"><a href="#结束之后-登录-MySQL-验证-mysql-uroot-p" class="headerlink" title="- 结束之后, 登录 MySQL 验证: mysql -uroot -p"></a>- 结束之后, 登录 MySQL 验证: mysql -uroot -p</h1><p>#</p>
+<p>######################################################################</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div></pre></td><td class="code"><pre><div class="line">-&gt; % mysql_secure_installation</div><div class="line"></div><div class="line">mysql_secure_installation: [ERROR] unknown variable &apos;default-character-set=utf8&apos;</div><div class="line"></div><div class="line">Securing the MySQL server deployment.</div><div class="line"></div><div class="line">Enter password for user root:    &lt; 输入 root &gt;</div><div class="line"></div><div class="line">VALIDATE PASSWORD PLUGIN can be used to test passwords</div><div class="line">and improve security. It checks the strength of password</div><div class="line">and allows the users to set only those passwords which are</div><div class="line">secure enough. Would you like to setup VALIDATE PASSWORD plugin?</div><div class="line"></div><div class="line">Press y|Y for Yes, any other key for No: y</div><div class="line">The password validation plugin is not available. Proceeding with the further steps without the plugin.</div><div class="line">Using existing password for root.</div><div class="line">Change the password for root ? ((Press y|Y for Yes, any other key for No) : y   &lt; 输入 &gt;</div><div class="line"></div><div class="line">New password:             &lt;输入: 123456&gt;</div><div class="line"></div><div class="line">Re-enter new password:    &lt;输入: 123456&gt;</div><div class="line">By default, a MySQL installation has an anonymous user,</div><div class="line">allowing anyone to log into MySQL without having to have</div><div class="line">a user account created for them. This is intended only for</div><div class="line">testing, and to make the installation go a bit smoother.</div><div class="line">You should remove them before moving into a production</div><div class="line">environment.</div><div class="line"></div><div class="line">Remove anonymous users? (Press y|Y for Yes, any other key for No) : y   &lt; 输入 &gt;</div><div class="line">Success.</div><div class="line"></div><div class="line"></div><div class="line">Normally, root should only be allowed to connect from</div><div class="line">&apos;localhost&apos;. This ensures that someone cannot guess at</div><div class="line">the root password from the network.</div><div class="line"></div><div class="line">Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y   &lt; 输入 &gt;</div><div class="line">Success.</div><div class="line"></div><div class="line">By default, MySQL comes with a database named &apos;test&apos; that</div><div class="line">anyone can access. This is also intended only for testing,</div><div class="line">and should be removed before moving into a production</div><div class="line">environment.</div><div class="line"></div><div class="line"></div><div class="line">Remove test database and access to it? (Press y|Y for Yes, any other key for No) : n   &lt; 输入 &gt;</div><div class="line"></div><div class="line"> ... skipping.</div><div class="line">Reloading the privilege tables will ensure that all changes</div><div class="line">made so far will take effect immediately.</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y   &lt; 输入 &gt;</div><div class="line">Success.</div><div class="line"></div><div class="line">All done!</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;MySQL-说明&quot;&gt;&lt;a href=&quot;#MySQL-说明&quot; class=&quot;headerlink&quot; title=&quot;MySQL 说明:&quot;&gt;&lt;/a&gt;MySQL 说明:&lt;/h1&gt;&lt;h2 id=&quot;MySQL-配置&quot;&gt;&lt;a href=&quot;#MySQL-配置&quot; class=&quot;he
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mongodb 配置</title>
+    <link href="http://dirtydoge.com/2017/01/25/mongodb%E9%85%8D%E7%BD%AE/"/>
+    <id>http://dirtydoge.com/2017/01/25/mongodb配置/</id>
+    <published>2017-01-24T19:52:49.000Z</published>
+    <updated>2017-01-24T19:53:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="安装-Mongodb"><a href="#安装-Mongodb" class="headerlink" title="安装 Mongodb"></a>安装 Mongodb</h2><h3 id="1-参考"><a href="#1-参考" class="headerlink" title="1. 参考:"></a>1. 参考:</h3><ul>
+<li><a href="https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/" target="_blank" rel="external">官方文档参考:</a></li>
+</ul>
+<ol>
+<li>如果用mongodb的GUI工具, 只支持 mongodb2.6</li>
+<li>如果用pycharm的插件,使用mongo,就可以装3.0</li>
+</ol>
+<h3 id="2-关于启动方式说明"><a href="#2-关于启动方式说明" class="headerlink" title="2. 关于启动方式说明:"></a>2. 关于启动方式说明:</h3><ul>
+<li><p>设置开启启动:</p>
+<ul>
+<li>ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents</li>
+<li>launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist</li>
+</ul>
+</li>
+<li><p>普通后台启动:</p>
+<ul>
+<li>mongod –config /usr/local/etc/mongod.conf</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-homebrew方式安装-默认的-数据库-存储目录"><a href="#3-homebrew方式安装-默认的-数据库-存储目录" class="headerlink" title="3. homebrew方式安装,默认的 数据库 存储目录:"></a>3. homebrew方式安装,默认的 数据库 存储目录:</h3><ul>
+<li>dbPath: /usr/local/var/mongodb</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">cat mongod.conf</div><div class="line"></div><div class="line"></div><div class="line">systemLog:</div><div class="line">  destination: file</div><div class="line">  path: /usr/local/var/log/mongodb/mongo.log</div><div class="line">  logAppend: true</div><div class="line">storage:</div><div class="line">  dbPath: /usr/local/var/mongodb</div><div class="line">net:</div><div class="line">  bindIp: 127.0.0.1</div></pre></td></tr></table></figure>
+<h3 id="4-安装日志"><a href="#4-安装日志" class="headerlink" title="4. 安装日志:"></a>4. 安装日志:</h3><p>```<br>➜  ~  brew install mongodb</p>
+<p>==&gt; Downloading <a href="https://homebrew.bintray.com/bottles/mongodb-3.0.7.el_capitan.bottle.tar.gz" target="_blank" rel="external">https://homebrew.bintray.com/bottles/mongodb-3.0.7.el_capitan.bottle.tar.gz</a></p>
+<p>######################################################################## 100.0%<br>==&gt; Pouring mongodb-3.0.7.el_capitan.bottle.tar.gz<br>==&gt; Caveats</p>
+<p>To have launchd start mongodb at login:<br>  ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents<br>Then to load mongodb now:<br>  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist</p>
+<p>Or, if you don’t want/need launchctl, you can just run:<br>  mongod –config /usr/local/etc/mongod.conf<br>==&gt; Summary<br>🍺  /usr/local/Cellar/mongodb/3.0.7: 17 files, 158M<br>➜  ~</p>
+<p>```brew search mongodb</p>
+<h1 id="安装3-0版本"><a href="#安装3-0版本" class="headerlink" title="安装3.0版本"></a>安装3.0版本</h1><p>brew install mongodb</p>
+<h1 id="安装2-6版本"><a href="#安装2-6版本" class="headerlink" title="安装2.6版本"></a>安装2.6版本</h1><h1 id="brew-install-mongodb26"><a href="#brew-install-mongodb26" class="headerlink" title="brew install mongodb26"></a>brew install mongodb26</h1><h1 id="安装日志"><a href="#安装日志" class="headerlink" title="安装日志:"></a>安装日志:</h1><p>-&gt; % brew install mongodb<br>==&gt; Downloading <a href="https://homebrew.bintray.com/bottles/mongodb-3.2.8.el_capitan.bottle.tar.gz" target="_blank" rel="external">https://homebrew.bintray.com/bottles/mongodb-3.2.8.el_capitan.bottle.tar.gz</a></p>
+<p>######################################################################## 100.0%<br>==&gt; Pouring mongodb-3.2.8.el_capitan.bottle.tar.gz<br>==&gt; Caveats</p>
+<p>To restart mongodb after an upgrade:<br>  brew services restart mongodb</p>
+<p>Or, if you don’t want/need a background service you can just run:<br>  mongod –config /usr/local/etc/mongod.conf</p>
+<p>==&gt; Summary<br>🍺  /usr/local/Cellar/mongodb/3.2.8: 17 files, 264.1M</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;安装-Mongodb&quot;&gt;&lt;a href=&quot;#安装-Mongodb&quot; class=&quot;headerlink&quot; title=&quot;安装 Mongodb&quot;&gt;&lt;/a&gt;安装 Mongodb&lt;/h2&gt;&lt;h3 id=&quot;1-参考&quot;&gt;&lt;a href=&quot;#1-参考&quot; class=&quot;head
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac 优化</title>
+    <link href="http://dirtydoge.com/2017/01/25/mac%E4%BC%98%E5%8C%96/"/>
+    <id>http://dirtydoge.com/2017/01/25/mac优化/</id>
+    <published>2017-01-24T19:52:06.000Z</published>
+    <updated>2017-01-24T19:52:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="初始化系统"><a href="#初始化系统" class="headerlink" title="初始化系统"></a>初始化系统</h1><h2 id="第三方开启"><a href="#第三方开启" class="headerlink" title="第三方开启"></a>第三方开启</h2><p><code>sudo spctl --master-disable</code></p>
+<h2 id="增加空白占位符"><a href="#增加空白占位符" class="headerlink" title="增加空白占位符"></a>增加空白占位符</h2><p><code>defaults write com.apple.dock persistent-apps -array-add &#39;{&quot;tile-type&quot;=&quot;spacer-tile&quot;;}&#39;; Killall Dock</code></p>
+<h2 id="隐藏应用使用透明图标显示"><a href="#隐藏应用使用透明图标显示" class="headerlink" title="隐藏应用使用透明图标显示"></a>隐藏应用使用透明图标显示</h2><p><code>defaults write com.apple.dock showhidden -bool true; Killall Dock</code></p>
+<h2 id="恢复默认"><a href="#恢复默认" class="headerlink" title="恢复默认"></a>恢复默认</h2><p><code>defaults delete com.apple.Dock showhidden; Killall Dock</code></p>
+<h2 id="安装xcode插件"><a href="#安装xcode插件" class="headerlink" title="安装xcode插件"></a>安装xcode插件</h2><p><code>xcode-select --install</code></p>
+<a id="more"></a>
+<h2 id="Anaconda-brew报错"><a href="#Anaconda-brew报错" class="headerlink" title="Anaconda brew报错"></a>Anaconda brew报错</h2><p><code>alias brew=&quot;env PATH=${PATH//$(pyenv root)\/shims:/} brew</code></p>
+<h2 id="conda-虚拟环境"><a href="#conda-虚拟环境" class="headerlink" title="conda 虚拟环境"></a>conda 虚拟环境</h2><p><code>conda create -n python2 python=2.7.13</code></p>
+<h2 id="git设置默认"><a href="#git设置默认" class="headerlink" title="git设置默认"></a>git设置默认</h2><p><code>git config --global user.email &quot;&quot;</code><br><code>git config --global user.name &quot;&quot;</code></p>
+<h2 id="anaconda-包位置"><a href="#anaconda-包位置" class="headerlink" title="anaconda 包位置"></a>anaconda 包位置</h2><p><code>/usr/local/var/pyenv/versions/anaconda3-4.2.0/lib/python3.5/site-packages</code></p>
+<h1 id="homebrew配置"><a href="#homebrew配置" class="headerlink" title="homebrew配置"></a>homebrew配置</h1><h2 id="安装homebrew"><a href="#安装homebrew" class="headerlink" title="安装homebrew"></a>安装homebrew</h2><p><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></p>
+<h2 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h2><p><code>brew install git wget zsh</code><br><code>sh -c“$（curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh）”</code></p>
+<h2 id="修改homebrew源"><a href="#修改homebrew源" class="headerlink" title="修改homebrew源"></a>修改homebrew源</h2><p><code>export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles</code></p>
+<h2 id="常用软件安装"><a href="#常用软件安装" class="headerlink" title="常用软件安装"></a>常用软件安装</h2><p><code>brew install autojump autoconf autocode automake curl xz tmux colormake zsh-autosuggestions zsh-syntax-highlighting</code></p>
+<h2 id="配置zsh"><a href="#配置zsh" class="headerlink" title="配置zsh"></a>配置zsh</h2><p><code>source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</code><br><code>source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh</code></p>
+<h1 id="参数修改"><a href="#参数修改" class="headerlink" title="参数修改"></a>参数修改</h1><h2 id="常用源修改"><a href="#常用源修改" class="headerlink" title="常用源修改"></a>常用源修改</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">.apmrc</div><div class="line">registry=https://registry.npm.taobao.org/  </div><div class="line">strict-ssl=false</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">.npmrc</div><div class="line">registry = https://registry.npm.taobao.org</div></pre></td></tr></table></figure>
+<h2 id="路由器vpn配置"><a href="#路由器vpn配置" class="headerlink" title="路由器vpn配置"></a>路由器vpn配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">nvram set model=RT-AC68U</div><div class="line">nvram set HW_ver=170</div><div class="line">nvram commit</div></pre></td></tr></table></figure>
+<h2 id="vim-spf13"><a href="#vim-spf13" class="headerlink" title="vim spf13"></a>vim spf13</h2><p><code>curl https://j.mp/spf13-vim3 -L &gt; spf13-vim.sh &amp;&amp; sh spf13-vim.sh</code></p>
+<h1 id="added-by-Anaconda3-4-2-0-installer"><a href="#added-by-Anaconda3-4-2-0-installer" class="headerlink" title="added by Anaconda3 4.2.0 installer"></a>added by Anaconda3 4.2.0 installer</h1><p><code>export PATH=&quot;/Users/abovesky/anaconda/bin:$PATH&quot;</code></p>
+<h1 id="关注项目"><a href="#关注项目" class="headerlink" title="关注项目:"></a>关注项目:</h1><p> <code>git clone git@github.com:mining/mining.git</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;初始化系统&quot;&gt;&lt;a href=&quot;#初始化系统&quot; class=&quot;headerlink&quot; title=&quot;初始化系统&quot;&gt;&lt;/a&gt;初始化系统&lt;/h1&gt;&lt;h2 id=&quot;第三方开启&quot;&gt;&lt;a href=&quot;#第三方开启&quot; class=&quot;headerlink&quot; title=&quot;第三方开启&quot;&gt;&lt;/a&gt;第三方开启&lt;/h2&gt;&lt;p&gt;&lt;code&gt;sudo spctl --master-disable&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;增加空白占位符&quot;&gt;&lt;a href=&quot;#增加空白占位符&quot; class=&quot;headerlink&quot; title=&quot;增加空白占位符&quot;&gt;&lt;/a&gt;增加空白占位符&lt;/h2&gt;&lt;p&gt;&lt;code&gt;defaults write com.apple.dock persistent-apps -array-add &amp;#39;{&amp;quot;tile-type&amp;quot;=&amp;quot;spacer-tile&amp;quot;;}&amp;#39;; Killall Dock&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;隐藏应用使用透明图标显示&quot;&gt;&lt;a href=&quot;#隐藏应用使用透明图标显示&quot; class=&quot;headerlink&quot; title=&quot;隐藏应用使用透明图标显示&quot;&gt;&lt;/a&gt;隐藏应用使用透明图标显示&lt;/h2&gt;&lt;p&gt;&lt;code&gt;defaults write com.apple.dock showhidden -bool true; Killall Dock&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;恢复默认&quot;&gt;&lt;a href=&quot;#恢复默认&quot; class=&quot;headerlink&quot; title=&quot;恢复默认&quot;&gt;&lt;/a&gt;恢复默认&lt;/h2&gt;&lt;p&gt;&lt;code&gt;defaults delete com.apple.Dock showhidden; Killall Dock&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;安装xcode插件&quot;&gt;&lt;a href=&quot;#安装xcode插件&quot; class=&quot;headerlink&quot; title=&quot;安装xcode插件&quot;&gt;&lt;/a&gt;安装xcode插件&lt;/h2&gt;&lt;p&gt;&lt;code&gt;xcode-select --install&lt;/code&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HomeBrew</title>
+    <link href="http://dirtydoge.com/2017/01/25/HomeBrew/"/>
+    <id>http://dirtydoge.com/2017/01/25/HomeBrew/</id>
+    <published>2017-01-24T19:51:24.000Z</published>
+    <updated>2017-01-24T19:51:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="homebrew-常用命令"><a href="#homebrew-常用命令" class="headerlink" title="homebrew 常用命令:"></a>homebrew 常用命令:</h2><ul>
+<li>帮助</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div></pre></td><td class="code"><pre><div class="line">-&gt; % brew</div><div class="line"></div><div class="line">Example usage:</div><div class="line">  brew search [TEXT|/REGEX/]</div><div class="line">  brew (info|home|options) [FORMULA...]</div><div class="line">  brew install FORMULA...</div><div class="line">  brew update</div><div class="line">  brew upgrade [FORMULA...]</div><div class="line">  brew uninstall FORMULA...</div><div class="line">  brew list [FORMULA...]</div><div class="line"></div><div class="line">Troubleshooting:</div><div class="line">  brew config</div><div class="line">  brew doctor</div><div class="line">  brew install -vd FORMULA</div><div class="line"></div><div class="line">Brewing:</div><div class="line">  brew create [URL [--no-fetch]]</div><div class="line">  brew edit [FORMULA...]</div><div class="line">  https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Formula-Cookbook.md</div><div class="line"></div><div class="line">Further <span class="built_in">help</span>:</div><div class="line">  man brew</div><div class="line">  brew <span class="built_in">help</span> [COMMAND]</div><div class="line">  brew home</div><div class="line"></div><div class="line">&lt;!-- more --&gt;</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># 强制卸载所有版本,否则只卸载最新的版本, 可能残留 旧的版本</span></div><div class="line">brew uninstall --force curl</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># Makes you owner of /usr/local</span></div><div class="line"></div><div class="line">$ sudo chown -R `whoami` /usr/<span class="built_in">local</span></div><div class="line"></div><div class="line"><span class="comment"># Force uninstalls failed python</span></div><div class="line">$ brew uninstall <span class="_">-f</span> python</div><div class="line"></div><div class="line"><span class="comment"># Clear the brew cache</span></div><div class="line">$ rm -rf `brew --cache`</div><div class="line"></div><div class="line"><span class="comment"># Recreate the brew cache</span></div><div class="line">$ mkdir `brew --cache`</div><div class="line"></div><div class="line"><span class="comment"># Cleanup - cleans up old homebrew files</span></div><div class="line">$ brew cleanup</div><div class="line"></div><div class="line"><span class="comment"># Prune - removes dead symlinks in homebrew</span></div><div class="line">$ brew prune</div><div class="line"></div><div class="line"><span class="comment"># Doctor - runs homebrew checks for common error causing issues</span></div><div class="line">$ brew doctor</div></pre></td></tr></table></figure>
+<h2 id="homebrew-安装路径"><a href="#homebrew-安装路径" class="headerlink" title="homebrew 安装路径:"></a>homebrew 安装路径:</h2><ul>
+<li>默认所有通过 brew 安装的软件包路径</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">/usr/<span class="built_in">local</span>/Cellar</div></pre></td></tr></table></figure>
+<h2 id="brew-cask-命令"><a href="#brew-cask-命令" class="headerlink" title="brew cask 命令:"></a>brew cask 命令:</h2><ul>
+<li>命令:</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment"># 查看APP信息:</span></div><div class="line">brew cask info squirrel</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># 强制卸载:</span></div><div class="line">brew cask uninstall --force  XXXX</div></pre></td></tr></table></figure>
+<h2 id="卸载-homebrew-工具本身"><a href="#卸载-homebrew-工具本身" class="headerlink" title="卸载 homebrew 工具本身:"></a>卸载 homebrew 工具本身:</h2><ul>
+<li>轻易不要卸载, 会导致所有通过 homebrew 安装的软件, 被自动删除.(代价有点高)</li>
+<li>安装 homebrew, 自动装 brew-cask 工具, 卸载同样.</li>
+<li><a href="https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/FAQ.md" target="_blank" rel="external">homebrew-FAQ</a></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"># uninstall homebrew:</div><div class="line">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)&quot;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;homebrew-常用命令&quot;&gt;&lt;a href=&quot;#homebrew-常用命令&quot; class=&quot;headerlink&quot; title=&quot;homebrew 常用命令:&quot;&gt;&lt;/a&gt;homebrew 常用命令:&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;帮助&lt;/li&gt;
+&lt;/ul&gt;
+&lt;fig
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go 语言配置</title>
+    <link href="http://dirtydoge.com/2017/01/25/Go%E8%AF%AD%E8%A8%80%E9%85%8D%E7%BD%AE/"/>
+    <id>http://dirtydoge.com/2017/01/25/Go语言配置/</id>
+    <published>2017-01-24T19:50:51.000Z</published>
+    <updated>2017-01-24T19:51:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="关于-go-安装说明"><a href="#关于-go-安装说明" class="headerlink" title="关于 go 安装说明:"></a>关于 go 安装说明:</h1><h2 id="开发环境搭建"><a href="#开发环境搭建" class="headerlink" title="开发环境搭建:"></a>开发环境搭建:</h2><ul>
+<li><a href="https://golang.org/doc/install" target="_blank" rel="external">go 安装官方文档</a><ul>
+<li>必看, 此文档非常详细.</li>
+</ul>
+</li>
+</ul>
+<h3 id="Mac-osx-开发环境配置"><a href="#Mac-osx-开发环境配置" class="headerlink" title="Mac osx 开发环境配置:"></a>Mac osx 开发环境配置:</h3><ul>
+<li>go 安装:<ul>
+<li>使用 homebrew 方式, 参看脚本.</li>
+</ul>
+</li>
+<li><p>配置 go 环境变量: (必要步骤)</p>
+<ul>
+<li>go 安装路径</li>
+<li>go 用户代码空间路径</li>
+</ul>
+</li>
+<li><p>go 开发工具推荐:</p>
+<ul>
+<li>IDEA ( jb 家的 IDE 全套都可以通过插件来支持 go, 但 idea 支持最佳)</li>
+<li>sublime text3</li>
+</ul>
+</li>
+</ul>
+<h3 id="Linux-和-Windows-开发环境配置"><a href="#Linux-和-Windows-开发环境配置" class="headerlink" title="Linux 和 Windows 开发环境配置:"></a>Linux 和 Windows 开发环境配置:</h3><ul>
+<li>go 安装:<ul>
+<li>下载安装包, 或者编译源码安装</li>
+</ul>
+</li>
+<li>配置 go 环境变量:<ul>
+<li>同上</li>
+</ul>
+</li>
+<li>开发工具:<ul>
+<li>同上</li>
+</ul>
+</li>
+</ul>
+<h2 id="go-重要包介绍"><a href="#go-重要包介绍" class="headerlink" title="go 重要包介绍:"></a>go 重要包介绍:</h2><h3 id="go-包管理工具"><a href="#go-包管理工具" class="headerlink" title="go 包管理工具:"></a>go 包管理工具:</h3><ul>
+<li><a href="https://github.com/Masterminds/glide" target="_blank" rel="external">glide</a><ul>
+<li>项目说明, 有安装提示和使用方法说明</li>
+</ul>
+</li>
+</ul>
+<h2 id="install-go"><a href="#install-go" class="headerlink" title="install go:"></a>install go:</h2><p><code>brew install go</code></p>
+<h2 id="install"><a href="#install" class="headerlink" title="install"></a>install</h2><p><code>brew install glide</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;关于-go-安装说明&quot;&gt;&lt;a href=&quot;#关于-go-安装说明&quot; class=&quot;headerlink&quot; title=&quot;关于 go 安装说明:&quot;&gt;&lt;/a&gt;关于 go 安装说明:&lt;/h1&gt;&lt;h2 id=&quot;开发环境搭建&quot;&gt;&lt;a href=&quot;#开发环境搭建&quot; class
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Flask 插件</title>
+    <link href="http://dirtydoge.com/2017/01/25/Flask%E6%8F%92%E4%BB%B6/"/>
+    <id>http://dirtydoge.com/2017/01/25/Flask插件/</id>
+    <published>2017-01-24T19:50:02.000Z</published>
+    <updated>2017-01-24T19:50:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="flask"><a href="#flask" class="headerlink" title="flask"></a>flask</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">flask-mongoengine</div><div class="line">Flask==0.10.1</div><div class="line">Flask-Admin==1.0.8</div><div class="line">Flask-Cache==0.13.1</div><div class="line">Flask-ErrorMail==0.2.2</div><div class="line">Flask-Gravatar==0.4.1</div><div class="line">Flask-Login==0.2.11</div><div class="line">Flask-Mail==0.9.1</div><div class="line">Flask-OAuthlib==0.7.0</div><div class="line">Flask-SQLAlchemy==2.0</div><div class="line">Flask-Testing==0.4.2</div><div class="line">Flask-WTF==0.10.3</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;flask&quot;&gt;&lt;a href=&quot;#flask&quot; class=&quot;headerlink&quot; title=&quot;flask&quot;&gt;&lt;/a&gt;flask&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;
+    
+    </summary>
+    
+      <category term="开发环境 osx" scheme="http://dirtydoge.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-osx/"/>
+    
+    
+      <category term="mac 笔记" scheme="http://dirtydoge.com/tags/mac-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://dirtydoge.com/2015/11/23/Python%E9%85%8D%E7%BD%AE/"/>
+    <id>http://dirtydoge.com/2015/11/23/Python配置/</id>
+    <published>2015-11-23T15:13:13.000Z</published>
+    <updated>2015-11-23T15:13:13.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
